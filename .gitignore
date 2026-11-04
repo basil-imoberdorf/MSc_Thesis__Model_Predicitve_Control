@@ -1,0 +1,18 @@
+# Credentials (template is .env.example)
+.env
+# Keep the template even if a global gitignore excludes ".env.*"
+!.env.example
+
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE / OS clutter
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
